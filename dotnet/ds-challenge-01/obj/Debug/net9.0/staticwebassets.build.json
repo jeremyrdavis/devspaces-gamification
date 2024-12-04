@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zKPRWLrGbZHBgusznbvGF1060OZOULig1+8MLsUQuBI=",
+  "Source": "ds-challenge-01",
+  "BasePath": "_content/ds-challenge-01",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,7 @@
+@ds_challenge_01_HostAddress = http://localhost:8080
+
+GET {{ds_challenge_01_HostAddress}}/getcurrentdate/
+GET {{ds_challenge_01_HostAddress}}/calculateandprintstatistics/
+Accept: application/json
+
+###

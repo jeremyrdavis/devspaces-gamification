@@ -1,0 +1,8 @@
+@ds_challenge_05_HostAddress = http://localhost:5007
+
+GET {{ds_challenge_05_HostAddress}}/challenge/
+GET {{ds_challenge_05_HostAddress}}/greetuser/
+GET {{ds_challenge_05_HostAddress}}/greet/
+Accept: application/json
+
+###

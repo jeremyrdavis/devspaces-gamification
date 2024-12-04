@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QO32WJCRa5o=",
+  "success": true,
+  "projectFilePath": "/Users/pk/code/redhat/devspaces-gamification/dotnet/ds-challenge-05/ds-challenge-05.csproj",
+  "expectedPackageFiles": [
+    "/Users/pk/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/pk/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
