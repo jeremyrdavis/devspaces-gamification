@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"name": "ds-challenge-01",
+			"path": "${PROJECTS_ROOT}/devspaces-gamification/ds-challenge-01"
+		},
+		{
+			"name": "ds-challenge-02",
+			"path": "${PROJECTS_ROOT}/devspaces-gamification/ds-challenge-02"
+		},
+		{
+			"name": "ds-challenge-03",
+			"path": "${PROJECTS_ROOT}/devspaces-gamification/ds-challenge-03"
+		},
+		{
+			"name": "ds-challenge-04",
+			"path": "${PROJECTS_ROOT}/devspaces-gamification/ds-challenge-04"
+		},
+		{
+			"name": "ds-challenge-05",
+			"path": "${PROJECTS_ROOT}/devspaces-gamification/ds-challenge-05"
+		}
+	],
+	"extensions": {
+		"recommendations": [			
+            "muhammad-sammy.csharp",
+			"cnshenj.vscode-task-manager"			
+		]
+	},
+	"settings": {
+		"workbench.colorTheme": "Winter is Coming (Light)",
+		"workbench.preferredDarkColorTheme": "Winter is Coming (Dark Blue)",
+		"workbench.preferredLightColorTheme": "Winter is Coming (Light)"
+	}
+}

@@ -1,4 +1,4 @@
-@ds_challenge_03_HostAddress = http://localhost:5292
+@ds_challenge_03_HostAddress = http://localhost:5152
 
 GET {{ds_challenge_03_HostAddress}}/weatherforecast/
 Accept: application/json

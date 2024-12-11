@@ -1,7 +1,6 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=827846
-    // for the documentation about the extensions.json format
-    "recommendations": [
-      "muhammad-sammy.csharp"
-    ]
-  }
+  "recommendations": [
+    "muhammad-sammy.csharp",
+    "cnshenj.vscode-task-manager"
+  ]
+}
