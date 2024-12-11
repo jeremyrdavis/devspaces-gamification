@@ -1,48 +1,33 @@
-var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+namespace ds_challenge_04;
 
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+public class Program
 {
-    app.MapOpenApi();
-}
+    public static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
-app.UseHttpsRedirection();
+        // Add services to the container.
 
-app.MapGet("/greet", () =>
-{
-    return "Hello Challenge Attendees";
-})
-.WithName("GreetChallengeAttendees");
+        builder.Services.AddControllers();
+        // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+        builder.Services.AddOpenApi();
 
-app.MapGet("/greetuser", (string name) =>
-{
-    string user = name;
-    return $"Hello {user}\n";
-})
-.WithName("GreetChallengeAttendeeWithName");
+        var app = builder.Build();
 
-app.MapGet("/challenge04", () =>
-{
-    string name = "OpenShift DevSpaces";
-    int length = name.Length;
-
-        for (int index = 0; index < length; index++)
+        // Configure the HTTP request pipeline.
+        if (app.Environment.IsDevelopment())
         {
-            char myChar = name[index];
-            if (index == 4) // Index 4 represents the fifth character in a zero-based index system
-            {
-                char fifthCharacter = name[index];
-                return $"The Fifth Character in the word \"OpenShift\"=[{fifthCharacter}]\n";
-            }
+            app.MapOpenApi();
         }
-        return "String is shorter than length 5 \n";
-})
-.WithName("ChallengeMethod");
 
-app.Run();
+        app.UseHttpsRedirection();
+
+        app.UseAuthorization();
+
+
+        app.MapControllers();
+
+        app.Run();
+    }
+}

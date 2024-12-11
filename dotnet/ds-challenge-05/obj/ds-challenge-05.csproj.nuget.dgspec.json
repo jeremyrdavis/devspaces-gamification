@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pk/code/redhat/devspaces-gamification/dotnet/ds-challenge-05/ds-challenge-05.csproj": {}
+    "/Users/pk/code/redhat/devspaces-gamification/ds-challenge-05/ds-challenge-05.csproj": {}
   },
   "projects": {
-    "/Users/pk/code/redhat/devspaces-gamification/dotnet/ds-challenge-05/ds-challenge-05.csproj": {
+    "/Users/pk/code/redhat/devspaces-gamification/ds-challenge-05/ds-challenge-05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pk/code/redhat/devspaces-gamification/dotnet/ds-challenge-05/ds-challenge-05.csproj",
+        "projectUniqueName": "/Users/pk/code/redhat/devspaces-gamification/ds-challenge-05/ds-challenge-05.csproj",
         "projectName": "ds-challenge-05",
-        "projectPath": "/Users/pk/code/redhat/devspaces-gamification/dotnet/ds-challenge-05/ds-challenge-05.csproj",
+        "projectPath": "/Users/pk/code/redhat/devspaces-gamification/ds-challenge-05/ds-challenge-05.csproj",
         "packagesPath": "/Users/pk/.nuget/packages/",
-        "outputPath": "/Users/pk/code/redhat/devspaces-gamification/dotnet/ds-challenge-05/obj/",
+        "outputPath": "/Users/pk/code/redhat/devspaces-gamification/ds-challenge-05/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pk/.nuget/NuGet/NuGet.Config"
