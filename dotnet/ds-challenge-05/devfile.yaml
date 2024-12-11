@@ -19,9 +19,9 @@ components:
       volumeMounts:
         - name: nuget
           path: /home/user/.nuget
-      env:
-        - name: VSCODE_DEFAULT_WORKSPACE
-          value: "${PROJECTS_ROOT}/devspaces-gamification/ds-gamification.code-workspace"
+      # env:
+      #   - name: VSCODE_DEFAULT_WORKSPACE
+      #     value: "${PROJECTS_ROOT}/devspaces-gamification/ds-gamification.code-workspace"
   - name: nuget
     volume:
       size: 1G
