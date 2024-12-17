@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "/",
+			"path": "/projects/ds-challenge03"  
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"redhat.vscode-yaml",
+			"cnshenj.vscode-task-manager",
+		]
+	},
+	"settings": {
+		"editor.wordWrap": "on"
+	}
+}

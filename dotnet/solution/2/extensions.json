@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "ms-dotnettools.csharp",
+        "ms-python.python",
+        "vscodevim.vim",
+        "mblode.pretty-formatter",        
+        "Oracle.oracledevtools",
+        "ms-vscode.PowerShell",
+        "ms-mssql.mssql",
+        "EditorConfig.EditorConfig"
+    ]
+}
+
+ 
